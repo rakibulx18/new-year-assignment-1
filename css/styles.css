@@ -1,0 +1,15 @@
+nav img {
+  width: 1320px;
+  height: 600px;
+  margin: 50px 300px
+}
+
+nav h4{
+    color: red;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
