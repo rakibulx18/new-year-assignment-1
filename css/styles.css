@@ -1,15 +1,57 @@
-nav img {
+nav {
+  background-image: url("../images/Banner\ Image.png");
+  margin: 0px 300px;
   width: 1320px;
   height: 600px;
-  margin: 50px 300px
+  flex-shrink: 0;
+}
+.banner {
+  color: red;
+  padding: 50px;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-weight: 900;
+}
+.off {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+
+  font-weight: 700;
+}
+.deals {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.container {
+  display: block;
+  margin: 0px 500px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-nav h4{
-    color: red;
-text-align: center;
-font-family: Merriweather;
-font-size: 32px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.centered-image {
+  max-width: 100%;
+  max-height: 100%;
 }
+.btn{
+  size: bold;
+}
+
+
+
+
+
